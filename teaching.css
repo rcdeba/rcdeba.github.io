@@ -1,0 +1,45 @@
+#course-table a, #course-table ul {
+	margin: 0;
+	padding: 0;
+}
+
+#current-course,#prev-course {
+    padding-top: 5%;
+	padding-left: 5%;
+}
+
+
+#course-table {
+	padding:0%	
+}
+#course-list {
+	list-style-type: none;
+	padding-top: 10%;
+	font-size: 1em;
+}
+.category {
+	font-weight: bold;
+	font-size: 1.1em;
+	color:  #94c0cc;
+    padding-top: 5%;
+}
+.course {
+	color: #ffc433;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	
+}
+	
+/* Media Queries */
+
+@media screen and (max-width: 100px) {
+	#image {
+		display: none;
+	}
+	#board-wrapper {
+		grid-row: 1/4;
+	}
+	#content {
+		grid-row: 3;
+	}
+}

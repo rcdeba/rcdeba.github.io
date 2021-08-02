@@ -1,0 +1,21 @@
+#content {
+	max-height: 100%;
+	overflow: auto;
+}
+#content > span {
+	color:#808080
+}	
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+	#image {
+		display: none;
+	}
+	#board-wrapper {
+		grid-row: 1/4;
+	}
+	#content {
+		grid-row: 3;
+	}
+}
