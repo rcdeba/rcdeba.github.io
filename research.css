@@ -2,8 +2,10 @@
 	max-height: 100%;
 	overflow: auto;
 }
+
 #content > span {
-	/* color:#808080 */
+	color: black;
+	text-decoration-style: solid;   
 }	
 
 /* Media Queries */
