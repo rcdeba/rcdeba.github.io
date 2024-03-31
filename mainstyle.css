@@ -169,7 +169,9 @@ nav > ul li{
 	#topnav > ul {
 		padding-top: 0%;
 	}
-
+	.link {
+		color: #f0e922;
+	}
 	#board-wrapper {
 		grid-column: 1;
 		grid-row: 1 / 5;
