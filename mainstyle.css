@@ -190,6 +190,13 @@ nav > ul li{
 	}
 
 	#content > p {text-align: justify;}
+
+	#image {
+		grid-column: 1;
+		grid-row: 3;
+		text-align: center;
+		padding: 0;
+	}
 	
 	#image > img {
 		height: 7rem;
