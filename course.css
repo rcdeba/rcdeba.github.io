@@ -27,3 +27,33 @@
 		background-color: #663333;
 	}
 }
+
+.images-section {
+            padding: 10px;
+            background: linear-gradient(135deg, #fff2dc 0%, #fff2dc 100%);
+            border-bottom: 1px solid #fff2dc;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+
+        .image-item {
+            text-align: center;
+        }
+
+        .image-item img {
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+
+        .image-item figcaption {
+            margin-top: 10px;
+            color: black;
+            font-weight: 500;
+        }
