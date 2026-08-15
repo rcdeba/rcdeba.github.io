@@ -1,0 +1,29 @@
+.homework {
+	background-color: #dddddd;
+}
+
+.exam {
+	background-color: #FCD3CA;
+}
+
+/*For Tablets and wide-screen mobiles*/
+@media only screen and (max-width: 850px) {
+	.homework {
+		background-color: #dddddd;
+	}
+
+	.exam {
+		background-color: #FCD3CA;
+	}
+}
+
+/*For mobiles*/
+@media screen and (max-width: 650px) {
+	.homework {
+		background-color: #333333;
+	}
+
+	.exam {
+		background-color: #663333;
+	}
+}
